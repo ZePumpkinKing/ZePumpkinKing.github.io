@@ -1,0 +1,132 @@
+#siteTitleA {
+    color: goldenrod;
+    font-size: 7vw;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#siteTitleB {
+    display: block;
+    color: goldenrod;
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5vw;
+}
+
+#centerBar {
+    display: block;
+    width: 70%;
+    background-color: black;
+    margin-left: 15%;
+    border-style: ridge;
+    border-width: 2vw;
+    border-color: goldenrod;
+    margin-top: 0;
+}
+
+#closing {
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.container {
+    border-collapse: collapse;
+    border:none;
+    outline:none;
+    width: 100%;
+    height: fit-content;
+    table-layout: fixed;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    column-gap: 0;
+}
+
+.container p1 {
+    display: block;
+    color: goldenrod;
+    font-size: 2vw;
+    text-align: left;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: normal;
+    width: 90%;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.imageButton {
+    margin-left: .7vw;
+    width: 30vw;
+    border-width: 1vw;
+    border-style: ridge;
+    border-color: rgb(190, 0, 0);
+    background-color: black;
+}
+
+.basicimage {
+    margin-left: .7vw;
+    width: 30vw;
+    border-width: 1vw;
+    border-style: ridge;
+    border-color: goldenrod;
+    background-color: black;
+}
+
+.imageButton:hover {
+    border-style: groove;
+    border-color: rgb(190, 0, 0);
+}
+
+body {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(100, 0, 0);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    display: block;
+    color: goldenrod;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    display: block;
+    color: goldenrod;
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0;
+}
+
+p1 {
+    display: block;
+    color: goldenrod;
+    font-size: 2vw;
+    text-align: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 3vw;
+    font-weight: normal;
+}
